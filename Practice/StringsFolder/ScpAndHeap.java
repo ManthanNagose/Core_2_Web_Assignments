@@ -1,0 +1,18 @@
+class StringDec {
+    public static void main(String[] args){
+
+        String str = "Core2Web";
+        String str2 = new String("Core2Web");
+        String str3 = "Core2Web";
+        String str4 = new String("Core2Web");
+
+        System.out.println(System.identityHashCode(str ));    //1000
+        System.out.println(System.identityHashCode(str2));    //2000
+        System.out.println(System.identityHashCode(str3));    //1000
+        System.out.println(System.identityHashCode(str4));    //3000
+
+        System.out.println(str == str3);
+        System.out.println(str == str2);
+    }
+    
+}
