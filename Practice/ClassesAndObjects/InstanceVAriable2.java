@@ -8,7 +8,7 @@ class InstDemo{
     }
 
     public static void main(String[] args){
-        Demo obj = new Demo();
+        Program1 obj = new Program1();
 
         System.out.println(obj.x);
         System.out.println(obj.y);
