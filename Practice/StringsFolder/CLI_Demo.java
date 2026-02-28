@@ -7,6 +7,5 @@ class CLIDemo {
             
         }
         System.out.println(sum);
-        
     }
 }
